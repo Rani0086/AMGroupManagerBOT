@@ -12,7 +12,7 @@
  "addons": [
     {
        "options": {
-          "version": "12"
+          "version": "15"
        },
        "plan": "heroku-postgresql"
     }
@@ -49,12 +49,12 @@
 "EVENT_LOGS": {
        "description": "Your gbans Logs Collect.",
        "required": true,
-       "value": "-1001841879487"
+       "value": "-1002208655586"
     },
-    "JOIN_LOGGER": {
+    "JOIN_LOGGER": {-1002009280180
        "description": "Your Bot New Group Join logs collet id ",
        "required": true,
-       "value": "-1001841879487"
+       "value": ""
     },
     "BOT_NAME": {
        "description": "Insert below your bot, it will appear everywhere",
@@ -68,7 +68,7 @@
     "SUPPORT_CHAT": {
        "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
        "required": true,
-       "value": "AM_YTSUPPORT"
+       "value": "waifexanime"
     },      
     "PHOTO": {
        "description": "Your Telegram Bot Image (Add Link Only).",
