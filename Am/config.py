@@ -17,13 +17,13 @@ class Config(object):
     OWNER_USERNAME = ""
     UPDATES = ""
     BOT_USERNAME = ""
-    SUPPORT_CHAT = "AM_YTSUPPORT"
-    JOIN_LOGGER = "-1001841879487"
-    EVENT_LOGS = "-1001841879487"
+    SUPPORT_CHAT = "waifexanime"
+    JOIN_LOGGER = "-1002208655586"
+    EVENT_LOGS = "-1002208655586"
     BOT_USERNAME = ""
     BOT_NAME = ""
-    GBANS = "AMBOTYT" 
-    CHAT_GROUP = ""
+    GBANS = "Crunchyrol_Anime_In_Hindi_India" 
+    CHAT_GROUP = "waifexanime"
     # 
     # DATABASE_URL = "postgres://ixweewbx:9OoB_feF6d6wK1W4YycgwHzRHQXezsNA@arjuna.db.elephantsql.com/ixweewbx"  # sql
     DATABASE_URL = ""  # sql
@@ -44,7 +44,7 @@ class Config(object):
     WORKERS = 20
     ALLOW_EXCL = True
     ALLOW_CHATS = True
-    PHOTO = "https://graph.org/file/2d3f35226a0d59cbb9980.jpg" # Miss Poppy Music Pic
+    PHOTO = "https://files.catbox.moe/v0xm23.jpg" # Miss Poppy Music Pic
     INFOPIC = True
 
 
