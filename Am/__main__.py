@@ -86,7 +86,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ Hello *{}*, My name is *{}*, a Telegram group management bot. I can help you manage your group and keep it running smoothly. Type /help to learn more about what I can do. And if you want to stay up to date with the latest news and updates, be sure to join my news channel. Thanks for choosing me!
+PM_START_TEXT = """ Hello *{{first}}*, My name is *{hinata robot}*, a Telegram group management bot. I can help you manage your group and keep it running smoothly. Type /help to learn more about what I can do. And if you want to stay up to date with the latest news and updates, be sure to join my news channel. Thanks for choosing me!
 """
 
 
@@ -189,10 +189,10 @@ def start(update: Update, context: CallbackContext):
                 [
                     InlineKeyboardButton(
                         text="SUPPORT", 
-                        url=f"https://t.me/AM_YTSUPPORT"),
+                        url=f"https://t.me/waifexanime"),
                     InlineKeyboardButton(
                         text="Gbans", 
-                        url=f"https://t.me/Logs_Gban")
+                        url=f"https://t.me/angleloz")
                     
                 ],
                 
@@ -229,8 +229,8 @@ def Am_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                    [
-                     InlineKeyboardButton(text="Support", url="t.me/AM_YTSUPPORT"),
-                     InlineKeyboardButton(text="News", url="t.me/AMBOTYT"),
+                     InlineKeyboardButton(text="Support", url="t.me/waifexanime"),
+                     InlineKeyboardButton(text="News", url="t.me/Planetsadala"),
                    ],
                    [
                     InlineKeyboardButton(text="Back", callback_data="Am_back")
